@@ -3,7 +3,7 @@ markdown# CLAUDE.md — Rapyd Python SDK
 
 ## Project Purpose
 Async Python SDK for the Rapyd Fintech-as-a-Service API.
-Published to PyPI as `rapyd-sdk`. After completion, this SDK will be the
+Published to PyPI as `rapyd-py`. After completion, this SDK will be the
 foundation for a Rapyd MCP server (rapyd-mcp). Build quality must match
 a production open-source library — not a script.
 
@@ -168,9 +168,9 @@ next pages. Resource list methods call this internally.
 - Never make real HTTP calls in tests
 
 ## PyPI Publishing
-Package name: `rapyd-sdk`
+Package name: `rapyd-py`
 ```
-pip install rapyd-sdk
+pip install rapyd-py
 ```
 ```python
 from rapyd import RapydClient
@@ -190,7 +190,7 @@ Read RAPYD_API_REFERENCE.md and CLAUDE.md.
 Set up the complete Python SDK project scaffold:
 
 1. `pyproject.toml` using hatchling build backend.
-   - Package name: rapyd-sdk
+   - Package name: rapyd-py
    - Version: 1.0.0
    - Python >=3.11
    - Dependencies: httpx>=0.27, pydantic>=2.7, pydantic-settings>=2.3
@@ -741,13 +741,13 @@ tests/test_client.py
 
 ### Phase 14 — README & PyPI Setup
 ```
-Write the production-quality README.md for the rapyd-sdk PyPI package.
+Write the production-quality README.md for the rapyd-py PyPI package.
 
 Must include:
 1. Badges: PyPI version, Python versions, License, GitHub Actions
 2. One-line pitch: "The unofficial async Python SDK for Rapyd — the one Rapyd should have built."
-3. Why this exists (official rapyd-sdk on PyPI is abandoned — no async, no Pydantic, no webhook verification)
-4. Install: pip install rapyd-sdk
+3. Why this exists (official rapyd-py on PyPI is abandoned — no async, no Pydantic, no webhook verification)
+4. Install: pip install rapyd-py
 5. Quick start — complete working example showing payment creation
 6. Config section (env vars and explicit args both)
 7. All 6 domains with code examples (Collect, Disburse, Wallet, Issuing, Verify, Protect)

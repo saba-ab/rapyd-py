@@ -3,7 +3,7 @@ requires = ["hatchling"]
 build-backend = "hatchling.build"
 
 [project]
-name = "rapyd-sdk"
+name = "rapyd-py"
 version = "1.0.0"
 description = "Async Python SDK for the Rapyd Fintech-as-a-Service API"
 readme = "README.md"

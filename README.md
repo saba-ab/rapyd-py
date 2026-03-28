@@ -1,9 +1,9 @@
-[![PyPI version](https://img.shields.io/pypi/v/rapyd-sdk.svg)](https://pypi.org/project/rapyd-sdk/)
-[![Python versions](https://img.shields.io/pypi/pyversions/rapyd-sdk.svg)](https://pypi.org/project/rapyd-sdk/)
+[![PyPI version](https://img.shields.io/pypi/v/rapyd-py.svg)](https://pypi.org/project/rapyd-py/)
+[![Python versions](https://img.shields.io/pypi/pyversions/rapyd-py.svg)](https://pypi.org/project/rapyd-py/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 [![CI](https://github.com/saba-ab/rapyd-py/actions/workflows/ci.yml/badge.svg)](https://github.com/saba-ab/rapyd-py/actions/workflows/ci.yml)
 
-# rapyd-sdk
+# rapyd-py
 
 **The unofficial async Python SDK for Rapyd — the one Rapyd should have built.**
 
@@ -11,12 +11,12 @@ Fully async, Pydantic v2 models, webhook verification, auto-pagination, and comp
 
 ## Why This Exists
 
-The official `rapyd-sdk` on PyPI is abandoned — no async support, no Pydantic models, no webhook signature verification, and incomplete endpoint coverage. This library fixes all of that.
+The official `rapyd-sdk` on PyPI is a bare-bones beta — no async support, no Pydantic models, no webhook signature verification, and incomplete endpoint coverage. This library fixes all of that.
 
 ## Install
 
 ```bash
-pip install rapyd-sdk
+pip install rapyd-py
 ```
 
 ## Quick Start
