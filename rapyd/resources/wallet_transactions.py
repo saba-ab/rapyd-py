@@ -2,8 +2,6 @@
 
 from __future__ import annotations
 
-from typing import Any
-
 from rapyd.models.wallet import WalletTransaction
 from rapyd.resources.base import BaseResource
 

@@ -1,6 +1,6 @@
 """Tests for RapydClient."""
 
-from unittest.mock import AsyncMock, patch
+from unittest.mock import AsyncMock
 
 from rapyd.client import RapydClient
 from rapyd.resources.payments import PaymentsResource

@@ -1,7 +1,5 @@
 """Shared test fixtures."""
 
-import os
-
 import pytest
 
 from rapyd.config import RapydSettings
