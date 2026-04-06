@@ -4,17 +4,17 @@ build-backend = "hatchling.build"
 
 [project]
 name = "rapyd-py"
-version = "1.0.0"
+version = "1.1.0"
 description = "Async Python SDK for the Rapyd Fintech-as-a-Service API"
 readme = "README.md"
-license = "MIT"
+license = "AGPL-3.0-only"
 requires-python = ">=3.11"
 authors = [{ name = "Rapyd SDK Contributors" }]
 keywords = ["rapyd", "fintech", "payments", "async", "sdk"]
 classifiers = [
     "Development Status :: 4 - Beta",
     "Intended Audience :: Developers",
-    "License :: OSI Approved :: MIT License",
+    "License :: OSI Approved :: GNU Affero General Public License v3",
     "Programming Language :: Python :: 3.11",
     "Programming Language :: Python :: 3.12",
     "Programming Language :: Python :: 3.13",

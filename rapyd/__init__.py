@@ -39,7 +39,7 @@ from rapyd.exceptions import (
 from rapyd.pagination import paginate
 from rapyd.webhooks import WebhookHandler, parse_webhook_event
 
-__version__ = "1.0.0"
+__version__ = "1.1.0"
 
 __all__ = [
     # Client
